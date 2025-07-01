@@ -44,4 +44,4 @@ A complete offline RAG (Retrieval-Augmented Generation) chatbot that runs entire
 
 ## Note
 
-The first run will download ~20GB of AI models. After that, everything runs offline! 
+The first run will download ~20GB of AI models. After that, everything runs offline!
