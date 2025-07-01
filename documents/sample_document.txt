@@ -1,0 +1,37 @@
+Welcome to the Offline RAG Chatbot System
+
+This is a sample document to help you test the offline RAG (Retrieval-Augmented Generation) chatbot system.
+
+About the System:
+- Uses Instructor-XL for creating embeddings from documents
+- Stores vector embeddings in Qdrant database
+- Uses Qwen-7B for generating intelligent responses
+- Runs completely offline after initial setup
+- Supports natural language questions about your documents
+
+Features:
+- Document chunking for better retrieval
+- Semantic search using 768-dimensional embeddings
+- Context-aware response generation
+- Source attribution for transparency
+- Modern web interface with real-time chat
+
+How to Use:
+1. Add your .txt documents to the documents folder
+2. Run the preprocessing script to generate embeddings
+3. Start the server and access the web interface
+4. Ask questions about your documents
+
+The system can answer questions about:
+- Document content and topics
+- Specific facts mentioned in the documents
+- Relationships between different pieces of information
+- Summaries and explanations based on the context
+
+This sample document contains information about the RAG system itself, so you can ask questions like:
+- "What embedding model does this system use?"
+- "How does the system work?"
+- "What are the main features?"
+- "How do I add new documents?"
+
+The system will search through all your documents and provide answers based on the most relevant content it finds. 
